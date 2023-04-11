@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-orange {
+      @apply bg-orange-400 rounded-md px-6 py-0.5 text-white hover:bg-orange-300;
+    }
+    .btn-black {
+        @apply bg-black rounded-md px-6 py-0.5 text-white hover:bg-gray-900;
+    }
+}
+
+.my-grid {
+    display: grid;
+  grid-template-columns: repeat(53, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-row-start: 3;
+  gap: 5px;
+}

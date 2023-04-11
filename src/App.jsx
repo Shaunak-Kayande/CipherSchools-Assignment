@@ -1,11 +1,10 @@
-import Header from "./components/Header";
-import Container from "./components/Container";
+import React from "react";
+import UserProfile from "./pages/profile/UserProfile";
 
 function App() {
   return (
-    <div className="font-sans bg-gray-100">
-      <Header />
-      <Container />
+    <div className="font-sans bg-slate-200 h-screen">
+      <UserProfile />
     </div>
   );
 }
