@@ -15,8 +15,8 @@ const UserDetails = () => {
         </div>
         <div className="mx-6">
           <h1 className="text-xl">Hello,</h1>
-          <h1 className="text-3xl font-bold">Lorem, ipsum.</h1>
-          <h1>Loremipsumdolor@gmail.com</h1>
+          <h1 className="text-3xl font-bold">Shaunak Kayande</h1>
+          <h1>shaunakkayande1304@gmail.com</h1>
         </div>
       </div>
       <div className="mx-10 text-lg">0 Followers</div>
