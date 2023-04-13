@@ -7,7 +7,7 @@ import UserDetails from "./UserDetails";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 w-full h-fit bg-white">
+    <div className="fixed top-0 w-full h-fit bg-white z-10">
       <div className="flex w-full h-16 border-b-2 items-center justify-between">
         <div className="flex">
           <Logo />
